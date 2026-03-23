@@ -1,0 +1,30 @@
+﻿# ── Python / Jupyter ──
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# ── Model weights (too large for git, auto-downloaded by setup.py) ──
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+*.onnx
+*.pth
+
+# ── Outputs (regenerate, don't commit) ──
+outputs/
+lora_output/
+ip_adapter_cache/
+
+# ── OS / IDE ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── Virtual environments ──
+venv/
+.env/
+env/
